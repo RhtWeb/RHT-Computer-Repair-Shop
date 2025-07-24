@@ -6,9 +6,9 @@ export default async function RSLayout({
   children : React.ReactNode
 }){
   return (
-    <div>
+    <div className="container w-5/6 m-auto">
       <Header />
-      <div>
+      <div className="px-4">
         {children}
       </div>
     </div>
