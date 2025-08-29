@@ -11,9 +11,9 @@ export default function Header(){
     <header>
       <div className="flex justify-between border-b-2">
         <div className="flex">
-          <NavButton href="/home" label="home" icon={HomeIcon} />
+          <NavButton href="/tickets" label="home" icon={HomeIcon} />
 
-          <Link href={"/home"}>
+          <Link href={"/tickets"}>
             <h1 className="hidden sm:block py-1">Computer Repair Shop</h1>
           </Link>
         </div>
