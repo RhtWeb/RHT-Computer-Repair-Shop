@@ -19,11 +19,9 @@ export default async function Customers({ searchParams }: {
   return(
     <>
     <CustomerSearch />
-    <p>
       { results.length ? <CustomerTable data={results} /> : (
         <p>No results found</p>
       ) }
-    </p>
     </>
   )
 }

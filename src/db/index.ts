@@ -6,7 +6,7 @@ config({ path: ['.env.local', '.env'] });
 
 const sql = neon(process.env.DATABASE_URL!);
 
-const db = drizzle(sql, {logger: true});
-// const db = drizzle(sql)
+// const db = drizzle(sql, {logger: true});
+const db = drizzle(sql)
 
 export { db }
