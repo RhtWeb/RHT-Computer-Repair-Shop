@@ -4,6 +4,9 @@
 
 we have build a full stack web application for a Computer Repair Shop that manages customers and repair tickets.
 
+- 🔗 [Project](https://rhtweb-computer-repair-shop.vercel.app)
+- 🔗 [Project| Home](https://rhtweb-computer-repair-shop.vercel.app/home)
+
 ### 💻 You will need:
 
 - [Node.js (npm / npx)](https://nodejs.org/)
