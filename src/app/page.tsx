@@ -19,7 +19,7 @@ export default function Home() {
           <Link href="tel:9999777755" className="hover:underline">
             99997-77755
           </Link>
-          <Button><Link href={"/home"}>Click Me</Link></Button>
+          <Button asChild><Link href={"/home"}>Click Me</Link></Button>
           <p className="text-sm">UserName:- admin <br /> password:- password123456</p>
         </div>
 
