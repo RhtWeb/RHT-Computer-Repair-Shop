@@ -76,8 +76,8 @@ export default async function TicketFormPage({ searchParams }: {
                 kindeInit() // Initializes the Kinde Management API 
                 const { users } = await Users.getUsers()
 
-                // eslint-disable-next-line @typescript-eslint/no-non-null-asserted-optional-chain
-                const techs = users ? users.map(user => ({ id: user.email?.toLowerCase()!, description: user.email?.toLowerCase()! })) : []
+                const techs = users ? users.filter((user): user is { email: string } => typeof user.email === "string").map(user => ({ id: user.email?.toLowerCase(), description: user.email?.toLowerCase() })) : []
+
 
                 return <TicketForm customer={customer} techs={techs} isManager={isManager} />
             } else {

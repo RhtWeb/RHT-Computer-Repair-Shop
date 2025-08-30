@@ -87,8 +87,7 @@ export default function CustomerForm({ customer, isManager = false }: Props) {
                 
             }
         },
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        onError({ error }) {
+        onError() {
             toast("Error", {
                     description: "Save Failed",
                 })

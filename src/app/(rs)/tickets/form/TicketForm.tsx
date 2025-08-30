@@ -57,8 +57,7 @@ export default function TicketForm({ customer, ticket, techs, isEditable = true,
             })
         }
     },
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    onError({ error }) {
+    onError() {
         toast("Error", {
             description: "Save Failed",
         })
