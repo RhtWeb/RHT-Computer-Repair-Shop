@@ -18,7 +18,11 @@ we have build a full stack web application for a Computer Repair Shop that manag
 
 ## Project Setup
 
+- add value in .env.local
+- install nvm
+
 ```sh
+nvm install v22.17.1
 nvm use
 ```
 
