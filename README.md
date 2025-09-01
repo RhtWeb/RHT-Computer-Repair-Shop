@@ -19,6 +19,10 @@ we have build a full stack web application for a Computer Repair Shop that manag
 ## Project Setup
 
 ```sh
+nvm use
+```
+
+```sh
 npm install
 ```
 
