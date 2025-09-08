@@ -3,9 +3,9 @@
 ## With Next.js 15 and React 19
 
 we have build a full stack web application for a Computer Repair Shop that manages customers and repair tickets.
-
-- 🔗 [Project](https://rhtweb-computer-repair-shop.vercel.app)
+- 🔗 [Project](https://[rhtweb-computer-repair-shop.vercel.app](https://repairshop.rhtweb.in/))
 - 🔗 [Project| Home](https://rhtweb-computer-repair-shop.vercel.app/home)
+- 🔗 [Project](https://rhtweb-computer-repair-shop.vercel.app)
 
 ### 💻 You will need:
 
